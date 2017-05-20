@@ -33,7 +33,7 @@ namespace ComputerVision_sample
         private async void Page_Loaded(object sender, RoutedEventArgs e)
         {
             //クライアント
-            client = new VisionServiceClient("fb18e00b353f4239a3a73f09b5ffd7a7", "https://southeastasia.api.cognitive.microsoft.com/vision/v1.0");
+            client = new VisionServiceClient("{your subscription key}", "https://southeastasia.api.cognitive.microsoft.com/vision/v1.0");
 
             //キャプチャーの設定
             MediaCaptureInitializationSettings captureInitSettings = new MediaCaptureInitializationSettings();
